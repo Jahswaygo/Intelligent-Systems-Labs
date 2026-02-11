@@ -2,6 +2,52 @@
 
 This repository contains a series of labs completed as part of an Intelligent Systems course. Each lab explores different machine learning and data analysis techniques, ranging from regression to clustering and neural networks. Below is a detailed explanation of each lab, including the methods used and their purpose.
 
+## Table of Contents
+- [Quick Reference](#quick-reference)
+- [Getting Started](#getting-started)
+- [Lab 1: Linear Regression and Standardization](#lab-1-linear-regression-and-standardization)
+- [Lab 2: Exploratory Data Analysis (EDA) and Logistic Regression](#lab-2-exploratory-data-analysis-eda-and-logistic-regression)
+- [Lab 3: Clustering Algorithms](#lab-3-clustering-algorithms)
+- [Lab 4: Neural Networks and Regression](#lab-4-neural-networks-and-regression)
+- [Repository Structure](#repository-structure)
+- [Technologies Used](#technologies-used)
+- [Usage Instructions](#usage-instructions)
+
+## Quick Reference
+
+| Lab | Focus Area | Type | Key Algorithms | Libraries |
+|-----|------------|------|----------------|-----------|
+| **Lab 1** | Linear Regression | Supervised | Linear Regression, Gradient Descent | NumPy, scikit-learn, Matplotlib |
+| **Lab 2** | Classification | Supervised | Logistic Regression, EDA | NumPy, Pandas, scikit-learn, Matplotlib |
+| **Lab 3** | Clustering | Unsupervised | K-Means, DBSCAN, Nearest Neighbor | NumPy, SciPy, scikit-learn, Matplotlib |
+| **Lab 4** | Neural Networks | Supervised | Deep Learning, MLP | TensorFlow/Keras, NumPy, Matplotlib |
+
+## Getting Started
+
+### Prerequisites
+- Python 3.7 or higher
+- Jupyter Notebook or JupyterLab
+- Required Python libraries (see [Technologies Used](#technologies-used))
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Jahswaygo/Intelligent-Systems-Labs.git
+   cd Intelligent-Systems-Labs
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install numpy pandas scikit-learn matplotlib scipy tensorflow jupyter
+   ```
+
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open any lab notebook (Lab1.ipynb, Lab2.ipynb, Lab3.ipynb, or Lab4.ipynb) to get started.
+
 ---
 
 ## Lab 1: Linear Regression and Standardization
@@ -159,3 +205,84 @@ Lab 4 focuses on building and training neural networks for regression tasks usin
 - Neural networks are powerful for modeling complex, non-linear relationships.
 - Data preprocessing (e.g., scaling) significantly impacts model performance.
 - The choice of architecture and activation functions affects the model's ability to learn.
+
+---
+
+## Repository Structure
+
+```
+Intelligent-Systems-Labs/
+│
+├── Lab1.ipynb          # Linear Regression and Standardization
+├── Lab2.ipynb          # EDA and Logistic Regression
+├── Lab3.ipynb          # Clustering Algorithms
+├── Lab4.ipynb          # Neural Networks and Regression
+├── README.md           # This file
+├── .gitignore          # Git ignore file
+└── .gitattributes      # Git attributes file
+```
+
+## Technologies Used
+
+This project uses the following Python libraries:
+
+- **NumPy**: Numerical computing and array operations
+- **Pandas**: Data manipulation and analysis
+- **Matplotlib**: Data visualization and plotting
+- **scikit-learn**: Machine learning algorithms and utilities
+- **SciPy**: Scientific computing and optimization
+- **TensorFlow/Keras**: Deep learning framework for neural networks
+- **Jupyter**: Interactive notebook environment
+
+### Recommended Versions
+```
+python>=3.7
+numpy>=1.19.0
+pandas>=1.1.0
+matplotlib>=3.3.0
+scikit-learn>=0.23.0
+scipy>=1.5.0
+tensorflow>=2.3.0
+jupyter>=1.0.0
+```
+
+## Usage Instructions
+
+### Running the Labs
+Each lab is contained in a separate Jupyter notebook and can be run independently:
+
+1. **Lab 1 - Linear Regression**: Open `Lab1.ipynb` to explore linear regression with and without standardization
+2. **Lab 2 - Logistic Regression**: Open `Lab2.ipynb` to perform EDA and implement logistic regression
+3. **Lab 3 - Clustering**: Open `Lab3.ipynb` to work with K-Means, DBSCAN, and custom clustering algorithms
+4. **Lab 4 - Neural Networks**: Open `Lab4.ipynb` to build and train neural networks for regression
+
+### Tips for Running
+- Run cells sequentially from top to bottom
+- Ensure all required libraries are installed before running
+- Some cells may take several seconds to execute (especially in Lab 3 and Lab 4)
+- Visualizations will appear inline in the notebook
+
+## Key Learning Outcomes
+
+By completing these labs, you will:
+
+- ✅ Understand and implement fundamental machine learning algorithms from scratch
+- ✅ Learn the mathematics behind gradient descent and optimization
+- ✅ Master supervised learning techniques (regression and classification)
+- ✅ Explore unsupervised learning through clustering algorithms
+- ✅ Build and train neural networks for complex tasks
+- ✅ Compare custom implementations with industry-standard libraries
+- ✅ Gain experience with data preprocessing, visualization, and analysis
+- ✅ Understand the impact of hyperparameters on model performance
+
+## Contributing
+
+This repository contains completed coursework. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Author
+
+Created as part of an Intelligent Systems course at university.
+
+---
+
+**Note**: These labs are for educational purposes and demonstrate core concepts in machine learning and intelligent systems.
